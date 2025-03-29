@@ -12,7 +12,13 @@
 3) Пайплайн заполнение информации по будущим конференциям:
    Хожу по сайтам-агрегаторам из пункта 2, получаю урл, дату, место проведения. На сайте нахожу страницы speakers, topics и обрабатываю их с помощью llm.
    
-Основные ноутбуки:
+# Основные ноутбуки:
    1. get_crossref_conference (colab)
    2. llm_conference (kaggle)
-   
+
+# Модели:
+  gemma3 (4b params, 128k token context window)
+  phi3:mini (3.8b params, 4k token context window)
+  mistral (7b params, 32k token context window)
+  deepseek-r1 (7b params, 128k token context window) 
+  ...
